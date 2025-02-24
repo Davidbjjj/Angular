@@ -8,12 +8,17 @@ import { AppModule } from '../app.module';
 
 @NgModule({
   declarations: [
-   
+    CarroselComponent,
+    ElementocarroselComponent
   ],
   
   imports: [
-    CommonModule
+    CommonModule,
   ],
+  exports:[
+    CarroselComponent,
+    ElementocarroselComponent
+  ]
  
 })
 export class CarroselModule { }

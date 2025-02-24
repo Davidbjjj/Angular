@@ -7,22 +7,20 @@ import { CardeComponent } from './carde/carde.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BuscaComponent } from './busca/busca.component';
 import { PrincipaisComponent } from './principais/principais.component';
-import { ElementocarroselComponent } from './elementocarrosel/elementocarrosel.component';
-import { CarroselComponent } from './carrosel/carrosel.component';
+import { CarroselModule } from './carrosel/carrosel.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarroselComponent,
     CardeComponent,
     NavbarComponent,
     BuscaComponent,
     PrincipaisComponent,
-    ElementocarroselComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarroselModule /*importando outro módulo que exporta os compoentens que appmodule usa*/
   ],
   providers: [
     provideClientHydration()
