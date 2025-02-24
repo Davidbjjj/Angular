@@ -1,0 +1,12 @@
+main{
+    display: flex;
+   color: aliceblue;
+   padding-left:20px;
+}
+.ElementoCarrosel{
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}

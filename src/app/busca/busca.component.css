@@ -1,0 +1,10 @@
+.busca input{
+    background-color: rgb(24, 29, 39);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: aliceblue;
+    height: 30px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 5px;
+}

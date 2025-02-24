@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 20;
+   
+}
+
+nav li {
+    padding: 15px;
+    margin:15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+li:hover {
+    
+    background-color: rgb(89, 115, 141);
+    border-radius: 5px;
+
+}

@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    background-color: rgb(15, 23, 32);
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 100%;
+    display: flex; /* Torna o header um flex container --> Flexbox*/
+    flex-direction: row; /* Organiza os filhos lado a lado */
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.head-principal {
+    display: flex;
+    flex-direction: column; /* Empilha título e navbar */
+    align-items: center;
+    padding-left: 15%;
+    flex: 2; /* Ocupa mais espaço */
+}
+
+.titulo {
+    font-size: 24px;
+    text-align: center;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-busca {
+    display: flex;
+    padding-right: 60px;
+    margin: 35px;
+    align-items: end;
+    justify-content: flex-end; /* Alinha à direita */
+}
+.main-principal{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;/* faz com que o elemento da row fique centralizado verticamenente, mesmo sendo horizotnal*/
+    padding: 10px 20px;
+
+}
+.carrosel{
+    padding-left: 5%;
+}
