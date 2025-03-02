@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './elementocarrosel.component.css'
 })
 export class ElementocarroselComponent {
-
+    filme="filme"
 }

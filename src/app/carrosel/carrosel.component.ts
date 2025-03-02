@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './carrosel.component.css'
 })
 export class CarroselComponent {
-
+   categoria="Categoria"
 }
